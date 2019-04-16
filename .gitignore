@@ -1,0 +1,4 @@
+.idea
+venv
+frontend/node_modules
+backend/migrations
