@@ -22,7 +22,7 @@ body {
 
   .game-info {
     margin-bottom: 20px;
-    background: #19a0d9;
+    //background: #19a0d9;
     padding: 7px;
     text-align: center;
     color: #fff;
@@ -32,6 +32,12 @@ body {
       display: block;
       margin-top: 15px;
     }
+  }
+
+  .game-menu {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .board {
