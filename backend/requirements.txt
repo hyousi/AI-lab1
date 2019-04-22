@@ -1,0 +1,8 @@
+boto==2.49.0
+Django==2.2
+django-cors-headers==2.5.2
+djangorestframework==3.9.2
+djangorestframework-stubs==0.4.2
+pytz==2019.1
+sqlparse==0.3.0
+z3-solver==4.8.0.0

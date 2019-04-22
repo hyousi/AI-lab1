@@ -1,0 +1,22 @@
+[
+  {
+    "model": "lab1.player",
+    "pk": 1,
+    "fields": {
+      "username": "Abernathy Dolores",
+      "email": "something@gmail.com",
+      "score": 100,
+      "cheat_times": 0
+    }
+  },
+    {
+    "model": "lab1.player",
+    "pk": 2,
+    "fields": {
+      "username": "Bernard Lowe",
+      "email": "actor01@host.com",
+      "score": 40,
+      "cheat_times": 2
+    }
+  }
+]
