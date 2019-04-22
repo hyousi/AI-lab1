@@ -37,13 +37,14 @@ class Header extends React.Component {
             <NavbarToggler onClick={this.toggle}/>
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
-                {Object.entries(items).map(item => {
+                {Object.entries(items).map(([text, url]) => {
                   return (
                       <NavLink
-                          href={item[1]}
-                          active={window.location.pathname === item[1]}
+                          href={url}
+                          active={window.location.pathname === url}
+                          key={text}
                       >
-                        {item[0]}
+                        {text}
                       </NavLink>
                   );
                 })}

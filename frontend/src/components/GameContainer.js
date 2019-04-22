@@ -10,17 +10,17 @@ class GameContainer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      height: 8,
-      width: 8,
+      row: 8,
+      col: 8,
       mines: 10,
     };
   }
 
   render() {
-    const {height, width, mines} = this.state;
+    const {row, col, mines} = this.state;
     return (
         <div className="game">
-          <GameBoard height={height} width={width} mines={mines} />
+          <GameBoard row={row} col={col} mines={mines} />
         </div>
     );
   }
